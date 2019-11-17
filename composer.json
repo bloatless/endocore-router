@@ -1,0 +1,30 @@
+{
+    "name": "bloatless/endocore-router",
+    "description": "Router component for the Endocore framework.",
+    "keywords": [
+        "php",
+        "router",
+        "endocore",
+        "bloatless"
+    ],
+    "license": "MIT",
+    "homepage": "https://bloatless.org",
+    "authors": [
+        {
+            "name": "Simon Samtleben",
+            "email": "foo@bloatless.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bloatless\\Endocore\\Components\\Router\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "nikic/fast-route": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
